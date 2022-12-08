@@ -1,0 +1,7 @@
+p {
+  height: 100vh;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+};
