@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | Sandis Mortuzans</title>
+  <link rel="stylesheet" href="styles/my-reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Education</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main container">
+    <section class="hero">
+      <div class="hero__avatar-wrapper">
+        <img src="img/my-photo.jpg" alt="My photo" class="hero__avatar">
+      </div>
+      <div class="hero__wrapper">
+        <h1 class="hero__title">Sandis Mortuzans</h1>
+        <h3 class="hero__subtitle">Trainee Front-End developer</h3>
+      </div>
+    </section>
+    <section class="about-contacts">
+      <div class="contacts card">
+        <h2 class="title">Contacts</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">Ludza, Latvia</li>
+          <li class="contacts__item">Email: <span>smortuzans@mail.com</span></li>
+          <li class="contacts__item">Github: <span>CaHguk</span></li>
+          <li class="contacts__item">Telegram: <span>@CaHguK</span></li>
+          <li class="contacts__item">Discord: <span>CaHguk#2749</span>
+          </li>
+        </ul>
+      </div>
+      <div class="about card">
+        <h2 class="title">About Me</h2>
+        <p class="about__text">
+          I am from Latvia. In my free time, I like to do all kinds of sports: hockey, floorball, boxing, running. I
+          also like
+          to travel. I want to connect my future with the IT sphere. I have no experience at the moment. I chose
+          FRONT-END
+          because I like to visually see what I have created.
+        </p>
+      </div>
+    </section>
+    <section class="skill">
+      <div class="skills card">
+        <h2 class="title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">HTML&CSS</li>
+          <li class="skills__item">JavaScript, JQuery</li>
+          <li class="skills__item">SCSS, LESS, SASS</li>
+          <li class="skills__item">Git/Github</li>
+          <li class="skills__item">Gulp</li>
+          <li class="skills__item">Figma, Photoshop</li>
+          <li class="skills__item">Wordpress</li>
+        </ul>
+      </div>
+      <div class="code card">
+        <h2 class="title">Code</h2>
+        <pre class="code__code-example">
+          <code>
+function friend(friends){
+ let friendsName = [];
+  for (let key in friends) {
+   if (friends[key].length == 4) {
+    friendsName.push(friends[key])
+   }
+  }
+ return friendsName;
+}
+          </code>
+        </pre>
+      </div>
+    </section>
+    <section class="education">
+      <div class="education-courses card">
+        <h2 class="title">Education and courses</h2>
+        <ul class="education-courses__list">
+          <li class="education-courses__item">JavaScript + React (Udemy) - in progress</li>
+          <li class="education-courses__item">CMS WordPress (Udemy)</li>
+        </ul>
+      </div>
+      <div class="language card">
+        <h2 class="title">Languages</h2>
+        
+        English - A1
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper container ">
+      <p>&#169; 2022 <a href="https://github.com/CaHguk" class="footer__github-link">CaHguk</a></p>
+      <a href="https://rs.school/js/" class="footer__link"><img class="footer__img" src="img/rs-logo.svg" alt="RC School logo"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
