@@ -1,0 +1,132 @@
+body {
+  background-color: #fff;
+  color: #4D4F4F;
+  font-size: 22px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.card {
+  border-bottom: 3px solid #44D4D4;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  max-width: 45%;
+} 
+
+/* Header */
+
+.header,
+.footer {
+  background-color: #44D4D4;
+}
+
+.menu {
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.menu__item {
+  margin-right: 34px;
+}
+
+.menu__link {
+  color: #4D4F4F;
+  font-weight: bold;
+}
+
+/* Hero section */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  border-bottom: 10px solid #44D4D4;
+}
+
+.hero__avatar-wrapper {
+  position: relative;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.hero__avatar {
+  position: absolute;
+  top: -60px;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__title {
+  font-size: 48px;
+}
+
+.hero__subtitle {
+  font-size: 24px;
+}
+
+.about-contacts,
+.skill,
+.education {
+display: flex;
+justify-content: space-between;
+}
+
+.contacts,
+.about,
+.skills,
+.code,
+.education-course,
+.language
+ {
+  width: 100%;
+}
+
+.contacts__list,
+.skills__list,
+.education-courses__list {
+  padding-left: 35px;
+}
+
+.skills__item {
+  margin-bottom: 15px;
+}
+
+.code__code-example {
+  margin: 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 15px;
+}
+
+.footer__img {
+  display: block;
+  width: 100px;
+}
