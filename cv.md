@@ -2,10 +2,10 @@
 ***
 ### Contacts: 
 ***
- + Location: Latvia, Ludza
- + Phone +371 27888888
- + Email: smortuzans@gmail.com
- + GitHub: CaHguk
+ * Location: Latvia, Ludza
+ * Phone +371 27888888
+ * Email: smortuzans@gmail.com
+ * GitHub: CaHguk
 ***
 ### About me: 
 ***
@@ -13,12 +13,12 @@ I am always open to new knowledge, which is why I chose IT. I like the front-end
 ***
 ### Skills: 
 ***
- + HTML5
- + CSS3(SASS,LESS,SCSS)
- + JS (Basic)
- + Git
- + BEM
- + Gulp
+ * HTML5
+ * CSS3(SASS,LESS,SCSS)
+ * JS (Basic)
+ * Git
+ * BEM
+ * Gulp
 
 ***
 ### Code example: 
@@ -35,9 +35,9 @@ No yet
 ***
 ### Education: 
 ***
- + School - Ludza City Gymnasium
- + University - Latvian Academy of Sports Pedagogy (physiotherapy)
- + Udemy course JS + React 
+ * School - Ludza City Gymnasium
+ * University - Latvian Academy of Sports Pedagogy (physiotherapy)
+ * Udemy course JS + React 
 ***
 ### English:
 ***
