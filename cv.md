@@ -3,10 +3,6 @@
 ### Contacts: 
 ***
 
- * Location: Latvia, Ludza
- * Phone +371 27888888
- * Email: smortuzans@gmail.com
- * GitHub: CaHguk
 
 ***
 ### About me: 
